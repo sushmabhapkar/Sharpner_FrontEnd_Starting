@@ -1,7 +1,7 @@
 .expense_item_date {
   display: flex;
-  flex-direction: column;
-  justify-content:center;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   width: 20.5rem;
   height: 6.5rem;
@@ -11,35 +11,30 @@
   border-radius: 10px;
   font-weight: bold;
   font-size: 1.5rem;
-}
-
-.expense-date_month {
-  font-size: 0.75rem;
-  font-weight: bold;
-}
-
-.expense-date_day {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.expense-date_year {
-  font-size: 0.75rem;
-  font-weight: bold;
+  
 }
 
 .expense_item_description {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  gap: 1rem; /* Adjusted gap */
+  gap: 5rem; /* Adjusted gap */
 }
 
 .expense_item_price {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  gap: 1rem; /* Adjusted gap */
+}
+
+.expense-item-info {
+  font-size: 1rem; /* Adjusted font size */
+}
+
+.expense-item-title {
+  font-weight: bold;
+}
+
+.expense-item-amount {
+  font-weight: bold;
 }
 
 
